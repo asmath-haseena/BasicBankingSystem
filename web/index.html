@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Banking System</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width">
+        <style>
+            table{
+                border: 0px solid blue;
+            }
+            h1{
+                border: 1px solid black;
+                background-color: blue;
+                color: white;
+                text-align: left;
+            }
+            a{
+                text-decoration: none;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <form action="insert.jsp">
+
+            <center>
+
+                <h1>Transfer</h1>
+
+                <table border="0"  style="color:black">
+
+                    <tr>
+
+                        <td>
+
+                            <b>Transfer from</b>
+
+                        </td>
+
+                        <td>
+
+                            <input type="text" name="uname" required>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <b>Transfer To</b>
+
+                        </td>
+
+                        <td>
+
+                            <input type="email" name="uemail" required>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <b>Amount to Transfer</b>
+
+                        </td>
+
+                        <td>
+
+                            <input type="text" name="upass" required>
+
+                        </td>
+
+                    </tr>
+
+
+                    </table>
+                <br><input type="submit" name="submit" value="Transfer">
+
+        </form>
+
+         <br><br>
+         <div>
+             <a href="select.jsp">Transactions Done </a><br>
+         <a href="home.html">Back </a>
+        </div>
+       <br><br>
+         
+    </body>
+
+</html>
